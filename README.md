@@ -8,15 +8,16 @@ This library makes it simple to prevent this from happening.
 
 ## How?
 
-Inheritance: Make your `AppDelegate` inherit from `ScreenshotRemovingAppDelegate` 
-Composition: Override `OnResignActivation` and `OnActivate` in `AppDelegate` and forward the calls to the `IScreenshotRemover` of your preference.
+- Inheritance: Make your `AppDelegate` inherit from `ScreenshotRemovingAppDelegate` 
+- Composition: Override `OnResignActivation` and `OnActivate` in `AppDelegate` and forward the calls to the `IScreenshotRemover` of your preference.
 
 ## Available Removers
 
- - `BasicScreenshotRemover` -> Simply makes the entire window `Hidden`
+ - `BasicScreenshotRemover` -> Simply makes the entire window `Hidden` (default)
  - `ViewScreenshotRemover` -> Shows a provided view as the screenshot
  - `ColorScreenshotRemover` -> Shows a color as the screenshot
  - `ImageScreenshotRemover` -> Shows a provided image as the screenshot
+ - `BlurScreenshotRemover` -> Shows a blurred version of the screenshot
 
 ## But I don't even F# wtf??
 
