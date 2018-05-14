@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "NoPeeping", "NoPeeping\NoPeeping.fsproj", "{5501E2C3-7579-4435-B6D0-B9F14398A4B5}"
 EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "NoPeeping.Demo", "NoPeeping.Demo\NoPeeping.Demo.fsproj", "{F93CD120-CDBF-464A-A8C5-D5C0B88F4C0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,5 +27,17 @@ Global
 		{5501E2C3-7579-4435-B6D0-B9F14398A4B5}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{5501E2C3-7579-4435-B6D0-B9F14398A4B5}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{5501E2C3-7579-4435-B6D0-B9F14398A4B5}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{F93CD120-CDBF-464A-A8C5-D5C0B88F4C0C}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{F93CD120-CDBF-464A-A8C5-D5C0B88F4C0C}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{F93CD120-CDBF-464A-A8C5-D5C0B88F4C0C}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{F93CD120-CDBF-464A-A8C5-D5C0B88F4C0C}.Release|Any CPU.Build.0 = Release|iPhone
+		{F93CD120-CDBF-464A-A8C5-D5C0B88F4C0C}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{F93CD120-CDBF-464A-A8C5-D5C0B88F4C0C}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{F93CD120-CDBF-464A-A8C5-D5C0B88F4C0C}.Release|iPhone.ActiveCfg = Release|iPhone
+		{F93CD120-CDBF-464A-A8C5-D5C0B88F4C0C}.Release|iPhone.Build.0 = Release|iPhone
+		{F93CD120-CDBF-464A-A8C5-D5C0B88F4C0C}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{F93CD120-CDBF-464A-A8C5-D5C0B88F4C0C}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{F93CD120-CDBF-464A-A8C5-D5C0B88F4C0C}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{F93CD120-CDBF-464A-A8C5-D5C0B88F4C0C}.Debug|iPhone.Build.0 = Debug|iPhone
 	EndGlobalSection
 EndGlobal
