@@ -37,3 +37,6 @@ type ColorScreenshotRemover(color: UIColor) =
 
 type ImageScreenshotRemover(image: UIImage) =
     inherit ViewScreenshotRemover(new UIImageView(image), true)
+
+type BlurScreenshotRemover() =
+    inherit ViewScreenshotRemover(new UIVisualEffectView(UIBlurEffect.FromStyle(UIBlurEffectStyle.Light)), true)

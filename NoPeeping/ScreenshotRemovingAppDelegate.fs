@@ -5,7 +5,7 @@ open UIKit
 type ScreenshotRemovingAppDelegate() =
     inherit UIApplicationDelegate()
 
-    member val ScreenshotRemover : IScreenshotRemover = BasicScreenshotRemover() :> IScreenshotRemover with get, set
+    member val ScreenshotRemover : IScreenshotRemover = BlurScreenshotRemover() :> IScreenshotRemover with get, set
 
     override this.OnResignActivation(application: UIApplication) =
         this.ScreenshotRemover.OnResignActivation(this)
